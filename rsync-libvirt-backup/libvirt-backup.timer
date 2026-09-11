@@ -1,7 +1,7 @@
 # /etc/systemd/system/libvirt-backup.timer
 
 [Unit]
-Description=libvirt backup service (weekly)
+Description=libvirt backup service
 
 [Timer]
 OnCalendar=*-*-* 09:00:00
