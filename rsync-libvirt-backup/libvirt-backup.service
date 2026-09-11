@@ -1,0 +1,8 @@
+# /etc/systemd/system/libvirt-backup.service
+
+[Unit]
+Description=libvirt backup service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/rsnapshot libvirt
